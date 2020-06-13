@@ -18,6 +18,14 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Deobfuscater {
+	
+	// June 12, 2020: I just remembered what Regex is; I had learned it prior to
+	// making this script but forgot all about it. If I were to redo this, I
+	// would use Regex to make some of the parsing faster/shorter and I would
+	// break up the parsing logic into a series of pure functions to eliminate
+	// repetition and promote readability.
+	
+	// TODO: Implement the changes described above ^
 
 	// I did not write many comments because I thought of this as a one-off project
 	// and did not intend to share it. The main reason I am sharing this is to get
